@@ -22,3 +22,5 @@ jobs:
       id: go
     - name: Setup
       uses: actions/checkout@v1
+    - name: Start SSH 
+      uses: P3TERX/ssh2actions@main
